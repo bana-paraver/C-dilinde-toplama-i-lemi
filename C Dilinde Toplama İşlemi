@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+ int main(int argc, char *argv[]) { 
+		setlocale(LC_ALL,"turkish");
+
+
+
+
+
+int tamsayi1,tamsayi2,carpma,cikarma,toplama;
+	  float bolme,mod;
+
+	
+	     
+		
+	
+	  
+	  printf("Lütfen 1.Sayıyı giriniz\n");
+	  scanf("%d",&tamsayi1);
+
+	  printf("Lütfen 2.sayıyı giriniz\n");
+	  scanf("%d",&tamsayi2);
+		
+
+	  toplama=tamsayi1+tamsayi2;
+	  carpma=tamsayi1*tamsayi2;
+	  cikarma=tamsayi1-tamsayi2;
+      bolme=tamsayi1/tamsayi2;
+      mod=tamsayi1%tamsayi2;
+	 
+	  printf("Toplama Sonucu= %d\n",toplama);
+	  printf("Çarpma Sonucu= %d\n",carpma);
+	  printf("Çıkarma Sonucu= %d\n",cikarma);
+	  printf("Bölme Sonucu=%.f,",bolme);
+	  printf("%.f",mod);
+	
+
+
+		
+		
+		
+		
+		
+		
+		
+		return 0;
+		
+	
+		}
+		
+		
+		
